@@ -24,7 +24,8 @@ export { default as ErrorIcon } from "./Icons/Error";
 export { default as HelpIcon } from "./Icons/Help";
 export { default as InfoIcon } from "./Icons/Info";
 export { default as ListViewIcon } from "./Icons/ListView";
-export { default as LogoIcon } from "./Icons/Logo";
+
+
 export { default as LogoRoundIcon } from "./Icons/LogoRound";
 export { default as MinusIcon } from "./Icons/Minus";
 export { default as NoProfileAvatarIcon } from "./Icons/NoProfileAvatar";

@@ -11,22 +11,7 @@ const connectors: Config[] = [
     title: "Metamask",
     icon: Metamask,
     connectorId: "injected",
-  },
-  {
-    title: "TrustWallet",
-    icon: TrustWallet,
-    connectorId: "injected",
-  },
-  {
-    title: "MathWallet",
-    icon: MathWallet,
-    connectorId: "injected",
-  },
-  {
-    title: "TokenPocket",
-    icon: TokenPocket,
-    connectorId: "injected",
-  },
+  },  
   {
     title: "WalletConnect",
     icon: WalletConnect,
