@@ -7,6 +7,7 @@ export { default as IfoIcon } from "./Ifo";
 export { default as InfoIcon } from "./Info";
 export { default as LanguageIcon } from "./Language";
 export { default as LogoIcon} from "./LogoIcon"
+export { default as LogoWithText} from "./LogoWithText"
 export { default as MoonIcon } from "./Moon";
 export { default as MoreIcon } from "./More";
 export { default as NftIcon } from "./Nft";

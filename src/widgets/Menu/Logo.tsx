@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 import Flex from "../../components/Box/Flex";
-import { HamburgerIcon, HamburgerCloseIcon, LogoIcon } from "./icons";
+import { HamburgerIcon, HamburgerCloseIcon, LogoIcon, LogoWithText } from "./icons";
 import MenuButton from "./MenuButton";
 
 interface Props {
@@ -18,9 +18,11 @@ const StyledLink = styled(Link)`
   align-items: center;
   .mobile-icon {
     width: 42px;
+    height:42px;
   }
   .desktop-icon {
     width: 156px;
+    height:42px;
     display: none;
     ${({ theme }) => theme.mediaQueries.nav} {
       display: block;
@@ -32,7 +34,8 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = (
     <>
-      <LogoIcon className="mobile-icon"></LogoIcon>
+      <LogoIcon className="mobile-icon" />
+      <LogoWithText className="desktop-icon" />
     </>
   );
 
